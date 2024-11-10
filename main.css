@@ -1,0 +1,185 @@
+
+/* declaration block{
+        property1: value1;
+        property2: value2;
+        property3: value3;
+            }
+*/
+/* -----------------body style start---------------------  */
+/* the body tag effects the general content in between the body tags */
+/* background image is set to one I made it automatically repeats */
+body{
+    background-image: url(images/bg5.png); /* background image is set to one I made it automatically repeats */
+    height: 600px; /* sets the height of the body to 600px */
+    width: 800px; /* sets the width of the body to 800px */
+    margin-right: 200px; /* adds 200px to the right margin */
+    color: black; /* changes the text color to black */
+}
+/* -----------------Paragraph style start---------------------  */
+p{
+   margin: 30px;  /* adds 10px to the left margin only color right behind my text */
+   background-color: aliceblue; /* sets the background color of my text background */
+   opacity: 75%; /* makes the background color 75% see through  */
+   color: rgb(20, 65, 104); /* changes text color to blue */
+   box-shadow: 5px 5px 5px #ababab /* This drops a grey shadow  */
+}
+
+/* -----------------Heading style start---------------------  */
+h1{
+    text-align: center; /* Alights the heading to the center */
+    background-color: white; /* adds a white background*/
+    color: rgb(20, 65, 104); /* changes my text to black */
+    padding: 10px; /* adds a 10px padding after the boarder but before the margin  */
+    opacity: 75%; /* changes the opacity to 75% */
+    box-shadow: 5px 5px 5px #cecece /* drops a grey shadow */
+}
+
+/* -----------------Footer style start---------------------  */
+/* I made the footer expand the full length of the nav bar and the main content 
+   by adding their lengths together and fixing the position of the footer so it 
+   doesn't move by using float and position. I made it a block design. */
+   footer {
+    float: left; /* Floats the footer to the left */
+    position: fixed; /* Fixes the position of the footer */
+    bottom: 30px; /* Positions the footer 30px from the bottom */
+    left: 0; /* Positions the footer at the left edge */
+    width: 200px; /* Sets the width of the footer */
+    height: 100px; /* Sets the height of the footer */
+    background-color: white; /* Sets the background color to white */
+    box-shadow: 5px 5px 5px #ababab; /* Adds a grey shadow */
+    padding: 5px; /* Adds 5px padding */
+    color: rgb(20, 65, 104); /* Sets the text color to blue */
+    margin: 5px; /* Adds 5px margin */
+    font-family: fantasy; /* Sets the font to fantasy */
+    text-align: center; /* Centers the text */
+    list-style: none; /* Removes the list markers */
+  }
+  
+  /* This affects the list items, allowing me to give just the list items 
+     the alice blue background. */
+  footer li {
+    background-color: aliceblue; /* Sets the background color to alice blue */
+    text-align: center; /* Centers the text */
+    padding: 5px; /* Adds 5px padding */
+    box-shadow: 5px 5px 5px #ababab; /* Adds a grey shadow */
+    color: rgb(20, 65, 104); /* Sets the text color to blue */
+    opacity: 75%; /* Makes the background 75% transparent */
+    margin: 5px; /* Adds 5px margin */
+  }
+  
+  /* This affects the anchor tags within the footer when hovered over. */
+  footer a:hover {
+    color: rgb(250, 11, 250); /* Changes the link color to purple on hover */
+  }
+
+  
+/* -----------------navigation bar style start--------------------- 
+ */
+nav{
+    background-image: url(images/sidebar.png); /* sets the background image to an image i made in the images folder  */
+    height: 600px; /* sets the height */
+    width: 200px; /* sets the width  */
+    float: left; /* floats the boxes to the left causing them to go vertically since the width is short */
+    padding: 5px; /* puts a padding aroudn the box */
+    line-height: 30px; /* increase the line height (letter height) gives mnore space */
+    box-shadow: 5px 5px 5px #ababab; /* drops a grey shadow  */
+   }
+
+  /* These styles apply to the unordered list within the nav element. */
+nav ul {
+    background-color: white; /* Sets the background color to white */
+    margin: auto; /* Centers the list items horizontally */
+    box-shadow: 5px 5px 5px #ababab; /* Adds a grey shadow */
+    padding: 5px; /* Adds 5px padding around the list */
+    text-align: center; /* Centers the text within the list items */
+    list-style: none; /* Removes the bullet points from the list items */
+  }
+  
+  /* These styles affect the way each list item (li) within the nav looks. */
+  nav li {
+    list-style: none; /* Removes the bullet points from the list items */
+  }
+  
+  /* This style affects the anchor tags (a) within the nav when hovered over. */
+  nav a:hover {
+    color: deepskyblue; /* Changes the link color to deep sky blue on hover */
+    text-decoration: underline; /* Adds an underline to the link on hover */
+    cursor: pointer; /* Changes the cursor to a pointer on hover */
+    font-weight: bold; /* Makes the link text bold on hover */
+  }
+  
+  /* -----------------meme style start---------------------  */
+  /* Styles for the element with the ID "memeImage" (the meme image). */
+  #memeImage {
+    background-color: white; /* Sets the background color to white */
+    padding: 20px 40px; /* Adds padding around the image */
+    margin: 20px; /* Adds margin around the image */
+    box-shadow: 5px 5px 5px #ababab; /* Adds a grey shadow */
+    text-align: center; /* Centers the text within the image container */
+    color: rgb(20, 65, 104); /* Sets the text color to blue */
+    opacity: 75%; /* Makes the background 75% transparent */
+    font-family: fantasy; /* Sets the font to fantasy */
+    font-size: 20px; /* Sets the font size to 20px */
+    font-weight: bold; /* Makes the text bold */
+  }
+  
+  /* -----------------navigation bar style start---------------------  */
+  /* Styles for the header element. */
+  header {
+    font-family: fantasy; /* Sets the font to fantasy */
+    margin-right: 200px; /* Adds 200px right margin */
+    text-align: center; /* Centers the text */
+    box-shadow: 5px 5px 5px #ababab; /* Adds a grey shadow */
+    background-color: white; /* Sets the background color to white */
+    color: rgb(20, 65, 104); /* Sets the text color to blue */
+    padding: 10px; /* Adds 10px padding */
+    opacity: 75%; /* Makes the background 75% transparent */
+  }
+  
+  /* -----------------main container style start---------------------  */
+  /* Styles for the element with the class "main-container". */
+  .main-container {
+    background-image: url(images/binary.png); /* Sets the background image */
+    width: 800px; /* Sets the width of the container */
+    height: 600px; /* Sets the height of the container */
+    margin-left: 210px; /* Adds 210px left margin */
+    box-shadow: 5px 5px 5px #ababab; /* Adds a grey shadow */
+    padding: 10px; /* Adds 10px padding */
+    color: rgb(20, 65, 104); /* Sets the text color to blue */
+    font-family: fantasy; /* Sets the font to fantasy */
+    font-size: 20px; /* Sets the font size to 20px */
+    font-weight: bold; /* Makes the text bold */
+    text-align: center; /* Centers the text */
+    position: relative; /* Sets the position to relative */
+  }
+  
+  /* -----------------button style start---------------------  */
+  /* Styles for all button elements. */
+  button {
+    background-color: #ababab; /* Sets the background color to light grey */
+  }
+  
+  /* -----------------home content style start---------------------  */
+  /* Styles for the element with the class "home-content". */
+  .home-content {
+    text-align: center; /* Centers the text */
+    padding: 20px; /* Adds 20px padding */
+    box-shadow: 5px 5px 5px #ababab; /* Adds a grey shadow */
+    background-color: white; /* Sets the background color to white */
+    color: black; /* Sets the text color to black */
+    opacity: 75%; /* Makes the background 75% transparent */
+    font-family: fantasy; /* Sets the font to fantasy */
+    font-size: 20px; /* Sets the font size to 20px */
+    font-weight: bold; /* Makes the text bold */
+    position: relative; /* Sets the position to relative */
+  }
+  
+  /* Styles for the element with the ID "memeImage". */
+  #memeImage {
+    width: 50%; /* Sets the width of the image to 50% of its container */
+    display: flex; /* Enables flexbox layout for the image container */
+    flex-direction: column; /* Arranges flex items in a column direction */
+    justify-content: center; /* Centers the flex items vertically */
+    align-items: center; /* Centers the flex items horizontally */
+    margin-top: 60px; /* Adds 60px margin to the top */
+  }
